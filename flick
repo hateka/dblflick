@@ -1,0 +1,1 @@
+javascript:document.addEventListener("dblclick",function(){var select = document.getSelection();var encode = encodeURI(select);var wind = window.open("");wind.document.location ="http://www.flickr.com/search/?q="+encode;},false);void(0);
